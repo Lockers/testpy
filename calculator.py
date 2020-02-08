@@ -13,3 +13,7 @@ minutes = int(pace / 60)
 seconds = int(pace % 60)
 
 print('Average pace is:', minutes, 'minutes and', seconds, 'seconds per mile')
+
+averageSpeed = truncate(3 / (21.25 / 60))
+
+print('The average speed is:', averageSpeed, 'miles per hour')
